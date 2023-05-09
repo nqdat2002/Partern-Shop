@@ -2,8 +2,7 @@ import React from "react";
 import { useContext } from "react";
 import { GlobalContext } from "../GlobalContext/GlobalContext";
 const Cart = () => {
-    const { cart, increaseQuantity, decreaseQuantity, removeItem } =
-        useContext(GlobalContext);
+    const { cart, increaseQuantity, decreaseQuantity, removeItem } = useContext(GlobalContext);
     // console.log(cart);
     return (
         <div className="w-full min-h-full flex justify-center">
