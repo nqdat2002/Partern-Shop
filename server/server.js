@@ -34,3 +34,4 @@ connect.then((res) =>{
     console.log(`DB has error: ${err}`);
 });
 
+module.exports = server;
