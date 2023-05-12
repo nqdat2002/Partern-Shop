@@ -12,4 +12,4 @@ Mở trình duyệt web và truy cập vào địa chỉ http://localhost:3000 �
 
 Khởi tạo một dự án Node.js mới bằng lệnh npm init. Điều này sẽ tạo ra một tệp package.json cho dự án của bạn, trong đó chứa các thông tin về tên, phiên bản, tác giả, các phụ thuộc, v.v.
 Bây giờ, bạn có thể bắt đầu viết code cho dự án của mình bằng Node.js. Bạn có thể tạo một tệp mới và bắt đầu viết code hoặc bạn có thể tạo một ứng dụng web Node.js bằng một framework như Express.
-Để chạy ứng dụng của bạn, bạn có thể sử dụng lệnh node <tên_tệp>.js để chạy file JavaScript của bạn. Nếu bạn đang sử dụng một framework như Express, bạn có thể sử dụng lệnh npm start để chạy ứng dụng của bạn.
+Để chạy ứng dụng của bạn, bạn có thể sử dụng lệnh node <tên_tệp>.js để chạy file JavaScript của bạn. Nếu bạn đang sử dụng một framework như Express, bạn có thể sử dụng lệnh npm start để chạy ứng dụng của bạn !.
