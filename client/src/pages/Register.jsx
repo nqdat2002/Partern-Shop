@@ -28,7 +28,7 @@ const Register = () =>{
         // console.log(inputs);
         
         // axios connect to backend
-        axios.post("http://localhost:5000/api/user/register", {...inputs}, {withCredentials: true})
+        axios.post("https://server-patern-shop11.onrender.com/api/user/register", {...inputs}, {withCredentials: true})
         .then((res) =>{
             // console.log(res);
             if(!res.data.created){
