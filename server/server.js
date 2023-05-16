@@ -29,7 +29,7 @@ app.use("/api/items", itemsRouter);
 
 const port = process.env.PORT || 8080;
 
-connect.then((res) =>{
+connect.then((req, res) =>{
     app.listen(port, () => {
         console.log(`Server is runing on PORT: ${port}`);
     });
