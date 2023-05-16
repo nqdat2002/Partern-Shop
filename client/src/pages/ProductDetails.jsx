@@ -43,7 +43,7 @@ const ProductDetails = () => {
 
     useEffect(() => {
         axios({
-            url: `http://localhost:5000/api/items/get_item/${productid}`,
+            url: `https://server-patern-shop11.onrender.com/api/items/get_item/${productid}`,
             method: "get",
         })
             .then((res) => {
@@ -80,7 +80,7 @@ const ProductDetails = () => {
 
     const deleteProduct = () =>{
         axios({
-            url: `http://localhost:5000/api/items/delete/${productid}`,
+            url: `https://server-patern-shop11.onrender.com/api/items/delete/${productid}`,
             method: "delete",
         })
             .then((res) => {
