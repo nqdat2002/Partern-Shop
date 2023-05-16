@@ -7,7 +7,7 @@ const AdminDashboard = () => {
 
     useEffect(() => {
         axios({
-            url: `http://localhost:5000/api/user/getalluser`,
+            url: `https://server-patern-shop11.onrender.com/api/user/getalluser`,
             method: "get",
         })
             .then((res) => {
@@ -19,7 +19,7 @@ const AdminDashboard = () => {
     }, []);
 
     const submitHandler = (id) => {
-        axios.delete(`http://localhost:5000/api/user/delete/${id}`)
+        axios.delete(`https://server-patern-shop11.onrender.com/api/user/delete/${id}`)
             .then(res => {
                 console.log(res);
             })
