@@ -20,7 +20,7 @@ const AddNewProduct = () => {
         e.preventDefault();
         // console.log(inputs);
         axios({
-            url: "http://localhost:5000/api/items/add",
+            url: "https://server-patern-shop11.onrender.com/api/items/add",
             method: "post",
             data: {
                 ...inputs,
