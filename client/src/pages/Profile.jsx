@@ -51,7 +51,7 @@ const Profile = () => {
     const submitHandler = (e) => {
         e.preventDefault();
 
-        axios.put(`http://localhost:5000/api/user/updateinfor/${inputs.username}`, { ...inputs })
+        axios.put(`https://server-patern-shop11.onrender.com/api/user/updateinfor/${inputs.username}`, { ...inputs })
             .then((res) => {
                 console.log(res.data);
                 if (res.data.error_type === 1) {
