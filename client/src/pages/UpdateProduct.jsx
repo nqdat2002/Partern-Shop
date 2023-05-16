@@ -27,7 +27,7 @@ const UpdateProduct = () => {
 
     useEffect(() => {
         axios({
-            url: `http://localhost:5000/api/items/get_item/${productid}`,
+            url: `https://server-patern-shop11.onrender.com/api/items/get_item/${productid}`,
             method: "get",
         })
             .then((res) => {
@@ -45,7 +45,7 @@ const UpdateProduct = () => {
 
     const editProduct = () =>{
         axios({
-            url: `http://localhost:5000/api/items/edit/${productid}`,
+            url: `https://server-patern-shop11.onrender.com/api/items/edit/${productid}`,
             method: "put",
         })
             .then((res) => {
