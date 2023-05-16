@@ -14,7 +14,7 @@ const Home = () => {
 
     useEffect(() => {
         axios({
-            url: "http://localhost:5000/api/items/all_items",
+            url: "https://server-patern-shop11.onrender.com/api/items/all_items",
             method: "get",
         })
             .then((res) => {
