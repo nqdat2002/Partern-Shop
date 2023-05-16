@@ -16,10 +16,12 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin : ["http://localhost:3000"],
+//         origin : ["http://localhost:3000"],
         credentials: true, 
     })
 );
+
+app.get("/", () => res.send("Hello"));
 
 app.use("/api/user", userRouter);
 app.use("/api/items", itemsRouter);
