@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-//         origin : ["http://localhost:3000"],
+        origin : ["https://partern-shop-i7tc-5hhiycz1q-nqdat2002.vercel.app"],
         credentials: true, 
     })
 );
