@@ -21,7 +21,7 @@ app.use(
     })
 );
 
-app.get("/", () => res.send("Hello"));
+app.get("/", (res) => res.send("Hello"));
 
 app.use("/api/user", userRouter);
 app.use("/api/items", itemsRouter);
