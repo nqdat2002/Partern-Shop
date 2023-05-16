@@ -30,7 +30,7 @@ function App() {
   useEffect(() => {
     axios
       .post(
-        "http://localhost:5000/api/user/verify_account",
+        "https://server-patern-shop11.onrender.com/api/user/verify_account",
         { token },
         { withCredentials: true }
       )
